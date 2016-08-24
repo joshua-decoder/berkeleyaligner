@@ -381,6 +381,7 @@ public class ListUtils {
       array[i] = list.get(i);
     return array;
   }
+/*
   public static double[] toArray(List<Double> list) {
     double[] array = new double[list.size()];
     for(int i = 0; i < array.length; i++)
@@ -393,6 +394,7 @@ public class ListUtils {
       data[i] = list.get(i);
     return data;
   }
+*/
 
   // Take subsequence [start, end)
   public static String[] subArray(String[] v, int start) {
